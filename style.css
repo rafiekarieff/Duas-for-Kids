@@ -19,35 +19,20 @@ body {
 /*============= HOME PAGE ===============*/
 
 #home-logo-img{
-  width: 150px;
+  width: 150px
   display: block;
   margin: auto;
   padding: 25px 10px 10px 10px;
+   margin-right:auto;
+   margin-left: auto;
+   max-width: 100%;
+
 }
-#home-logo-text{
-  width: 500px;
-  display: block;
-  margin: auto;
-  padding: 25px;
-}
+
 
 /*============= HOME PAGE MENU ===============*/
 
-.home-menu-item{
-  text-decoration: none;
-  color: #000000;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid #000000;
 
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-  width: 80%;
-  border-radius: 5px;
- background: rgba(255,255,255,.12);
-}
 .site-footer { padding: 2rem 1rem;
               text-align: center;
               color: #000000;
