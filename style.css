@@ -1,1 +1,61 @@
+html {
+  height: 100%;
+}
 
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.body-home {
+  background-image: url("images/bg.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*============= HOME PAGE ===============*/
+
+#home-logo-img{
+  width: 150px;
+  display: block;
+  margin: auto;
+  padding: 25px 10px 10px 10px;
+}
+#home-logo-text{
+  width: 500px;
+  display: block;
+  margin: auto;
+  padding: 25px;
+}
+
+/*============= HOME PAGE MENU ===============*/
+
+.home-menu-item{
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #000000;
+
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 5px;
+ background: rgba(255,255,255,.12);
+}
+.site-footer { padding: 2rem 1rem;
+              text-align: center;
+              color: #000000;
+              text-decoration: none;
+              font-size: 10px;
+             }
+
+.home-menu :hover, .meals-list :hover {
+  background: #FF0026;
+  
+}
